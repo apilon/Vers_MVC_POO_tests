@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #global {
-//    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
+/*    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
     background: #333534;
     width: 70%;
     margin: auto;	/* Permet de centrer la div */
