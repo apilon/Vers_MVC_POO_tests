@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1000px" height="1000px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="238" y1="184" x2="248" y2="184" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="486" y1="297" x2="496" y2="297" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="248" y1="184" x2="486" y2="297" style="fill:red;stroke:red;stroke-width:1;"/>
+   <line x1="245.5" y1="184" x2="241.96446609407" y2="187.53553390593" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="245.5" y1="184" x2="241.96446609407" y2="180.46446609407" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="491" y1="297" x2="487.46446609407" y2="300.53553390593" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="491" y1="297" x2="487.46446609407" y2="293.46446609407" style="fill:red;stroke:black;stroke-width:2;"/>
+   <line x1="473" y1="84" x2="463" y2="84" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <line x1="248" y1="124" x2="238" y2="124" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <line x1="463" y1="84" x2="248" y2="124" style="fill:    orange;stroke:    orange;stroke-width:1;"/>
+   <line x1="465.5" y1="84" x2="469.03553390593" y2="87.535533905933" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <line x1="465.5" y1="84" x2="469.03553390593" y2="80.464466094067" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <line x1="243" y1="124" x2="246.53553390593" y2="127.53553390593" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <line x1="243" y1="124" x2="246.53553390593" y2="120.46446609407" style="fill:    orange;stroke:black;stroke-width:2;"/>
+   <rect width="96" height="20" x="142" y="94" style="fill:red;stroke:black;"/>
+   <text width="96" height="20" x="147" y="108" style="fill:none;stroke:black;" font-family="Arial" font-size="16px"> Articles</text>
+   <rect width="96" height="20" x="142" y="114" style="fill:#0c0;stroke:black;"/>
+   <text width="96" height="20" x="147" y="128" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="96" height="20" x="142" y="134" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="148" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">titre</text>
+   <rect width="96" height="20" x="142" y="154" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="168" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">sous_titre</text>
+   <rect width="96" height="20" x="142" y="174" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="188" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">utilisateur_id</text>
+   <rect width="96" height="20" x="142" y="194" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="208" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="96" height="20" x="142" y="214" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="228" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">texte</text>
+   <rect width="96" height="20" x="142" y="234" style="fill:none;stroke:black;"/>
+   <text width="96" height="20" x="147" y="248" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">type</text>
+   <rect width="112" height="20" x="473" y="34" style="fill:red;stroke:black;"/>
+   <text width="112" height="20" x="478" y="48" style="fill:none;stroke:black;" font-family="Arial" font-size="16px"> Commentaires</text>
+   <rect width="112" height="20" x="473" y="54" style="fill:#0c0;stroke:black;"/>
+   <text width="112" height="20" x="478" y="68" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="112" height="20" x="473" y="74" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="88" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">article_id</text>
+   <rect width="112" height="20" x="473" y="94" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="108" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="112" height="20" x="473" y="114" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="128" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">auteur</text>
+   <rect width="112" height="20" x="473" y="134" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="148" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">titre</text>
+   <rect width="112" height="20" x="473" y="154" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="168" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">texte</text>
+   <rect width="112" height="20" x="473" y="174" style="fill:none;stroke:black;"/>
+   <text width="112" height="20" x="478" y="188" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">prive</text>
+   <rect width="54" height="20" x="162" y="342" style="fill:red;stroke:black;"/>
+   <text width="54" height="20" x="167" y="356" style="fill:none;stroke:black;" font-family="Arial" font-size="16px"> Types</text>
+   <rect width="54" height="20" x="162" y="362" style="fill:#0c0;stroke:black;"/>
+   <text width="54" height="20" x="167" y="376" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="54" height="20" x="162" y="382" style="fill:none;stroke:black;"/>
+   <text width="54" height="20" x="167" y="396" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">type</text>
+   <rect width="107" height="20" x="496" y="267" style="fill:red;stroke:black;"/>
+   <text width="107" height="20" x="501" y="281" style="fill:none;stroke:black;" font-family="Arial" font-size="16px"> Utilisateurs</text>
+   <rect width="107" height="20" x="496" y="287" style="fill:#0c0;stroke:black;"/>
+   <text width="107" height="20" x="501" y="301" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="107" height="20" x="496" y="307" style="fill:none;stroke:black;"/>
+   <text width="107" height="20" x="501" y="321" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">nom</text>
+   <rect width="107" height="20" x="496" y="327" style="fill:none;stroke:black;"/>
+   <text width="107" height="20" x="501" y="341" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">identifiant</text>
+   <rect width="107" height="20" x="496" y="347" style="fill:none;stroke:black;"/>
+   <text width="107" height="20" x="501" y="361" style="fill:none;stroke:black;" font-family="Arial" font-size="16px">mot_de_passe</text>
+</svg>
