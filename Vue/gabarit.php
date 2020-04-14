@@ -10,8 +10,14 @@
     <body>
         <div id="global">
             <header>
-                <a href="index.php"><h1 id="titreBlog">Le Blogue du prof v0.5.0.1</h1></a>
+                <a href="index.php"><h1 id="titreBlog">Le Blogue du prof v1.0.1.1</h1></a>
                 <p>Je vous souhaite la bienvenue sur ce modeste blog.</p>
+                <a href="index.php?action=apropos">
+                    <h4>À propos</h4>
+                </a>
+                <a href="tests.php">
+                    <h3>TESTS</h3>
+                </a>
             </header>
             <div id="contenu">
                 <?= $contenu ?>   <!-- Élément spécifique -->
@@ -20,9 +26,9 @@
                 Blog réalisé avec PHP, HTML5 et CSS.
             </footer>
         </div> <!-- #global -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="Contenu/js/autocompleteType.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="Contenu/js/autocompleteType.js"></script>
     </body>
 </html>
 

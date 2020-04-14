@@ -1,9 +1,7 @@
 <?php $titre = 'Le Blogue du prof'; ?>
 
 <?php ob_start(); ?>
-<a href="index.php?action=apropos">
-    <h4>À propos</h4>
-</a>
+
 <a href="index.php?action=nouvelArticle">
     <h2 class="titreArticle">Ajouter un article</h2>
 </a>

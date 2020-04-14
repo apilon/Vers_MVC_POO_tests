@@ -18,21 +18,21 @@ if (isset($_GET['test'])) {
 <h3>Tests de Modèles</h3>
 <ul>
     <li>
-        <a href="test.php?test=modeleArticle">Article</a>
+        <a href="tests.php?test=modeleArticle">Article</a>
     </li>
     <li>
-        <a href="test.php?test=modeleCommentaire">Commentaire</a>
+        <a href="tests.php?test=modeleCommentaire">Commentaire</a>
     </li>
 </ul>
 <h3>Tests de Vues</h3>
 <ul>
     <li>
-        <a href="test.php?test=vueArticles">Articles</a>
+        <a href="tests.php?test=vueArticles">Articles</a>
     </li>
     <li>
-        <a href="test.php?test=vueConfirmer">Confirmer</a>
+        <a href="tests.php?test=vueConfirmer">Confirmer</a>
     </li>
     <li>
-        <a href="test.php?test=vueErreur">Erreur</a>
+        <a href="tests.php?test=vueErreur">Erreur</a>
     </li>
 </ul>
