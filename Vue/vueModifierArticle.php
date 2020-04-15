@@ -15,5 +15,7 @@
         <input type="submit" value="Modifier" />
     </p>
 </form>
-
+<form action="index.php">
+    <input type="submit" value="Annuler" />
+</form>
 

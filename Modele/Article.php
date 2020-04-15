@@ -11,7 +11,7 @@ class Article extends Modele {
 
 // Renvoie la liste de tous les articles, triés par identifiant décroissant
     public function getArticles() {
-        $sql = 'select * from Articles'
+        $sql = 'select * from articles'
                 . ' order by ID desc';
         $articles = $this->executerRequete($sql);
         return $articles;
@@ -26,7 +26,7 @@ class Article extends Modele {
 
 // Renvoie les informations sur un article
     function getArticle($idArticle) {
-        $sql = 'select * from Articles'
+        $sql = 'select * from articles'
                 . ' where ID=?';
         $article = $this->executerRequete($sql, [$idArticle]);
         if ($article->rowCount() == 1) {
@@ -37,7 +37,7 @@ class Article extends Modele {
     }
 // Met à jour un article
     public function updateArticle($article) {
-        $sql = 'UPDATE Articles'
+        $sql = 'UPDATE articles'
                 . ' SET titre = ?, sous_titre = ?, utilisateur_id = ?, date = NOW(), texte = ?, type = ?'
                 . ' WHERE id = ?';
         $result = $this->executerRequete($sql, [$article['titre'], $article['sous_titre'], $article['utilisateur_id'], $article['texte'], $article['type'], $article['id']]);

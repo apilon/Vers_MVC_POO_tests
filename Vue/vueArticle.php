@@ -13,6 +13,7 @@
 <header>
     <h1 id="titreReponses">Réponses à <?= $article['titre'] ?> :</h1>
 </header>
+<?= ($commentaires->rowCount() == 0) ? '<span style="color : green;">Pas encore de commentaires pour cet article.</span>' : '' ?>
 <?php foreach ($commentaires as $commentaire): ?>
     <?php if ($commentaire['efface'] == '0') : ?>
         <p><a href="index.php?action=confirmer&id=<?= $commentaire['id'] ?>" >

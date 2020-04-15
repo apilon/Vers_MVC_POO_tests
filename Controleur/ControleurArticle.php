@@ -36,20 +36,29 @@ class ControleurArticle {
 
 // Enregistre le nouvel article et retourne à la liste des articles
     public function ajouter($article) {
-        $this->article->setArticle($article);
+        if (H204A4_PUBLIC) {
+            $_SESSION['h204a4message'] = "Ajouter un article n'est pas permis en démonstration";
+        } else {
+            $this->article->setArticle($article);
+        }
         $this->articles();
     }
-    
+
 // Modifier un article existant    
     public function modifierArticle($id) {
         $article = $this->article->getArticle($id);
         $vue = new Vue("ModifierArticle");
         $vue->generer(['article' => $article]);
     }
-    
+
 // Enregistre l'article modifié et retourne à la liste des articles
     public function miseAJourArticle($article) {
-        $this->article->updateArticle($article);
+        if (H204A4_PUBLIC) {
+            $_SESSION['h204a4message'] = "Moddifier un article n'est pas permis en démonstration";
+        } else {
+            $this->article->updateArticle($article);
+        }
         $this->articles();
     }
+
 }

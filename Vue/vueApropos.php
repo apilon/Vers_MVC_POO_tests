@@ -1,6 +1,5 @@
 <?php $titre = 'Le Blogue du prof version 1.0.0.1'; ?>
 
-<?php ob_start(); ?>
 <ul>
     <li>André Pilon</li>
 
@@ -68,6 +67,3 @@
         </td>
     </tr>
 </table>
-<?php $contenu = ob_get_clean(); ?>
-
-<?php require 'Vue/gabarit.php'; ?>

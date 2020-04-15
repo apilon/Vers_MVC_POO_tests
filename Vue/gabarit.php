@@ -10,8 +10,8 @@
     <body>
         <div id="global">
             <header>
-                <a href="index.php"><h1 id="titreBlog">Le Blogue du prof v1.0.1.1</h1></a>
-                <p>Je vous souhaite la bienvenue sur ce modeste blog.</p>
+                <a href="index.php"><h1 id="titreBlog">Le Blogue du prof v1.0.1.2</h1></a>
+                <p>Version MVC en PHP orienté-objet avec tests.</p>
                 <a href="index.php?action=apropos">
                     <h4>À propos</h4>
                 </a>
@@ -19,6 +19,12 @@
                     <h3>TESTS</h3>
                 </a>
             </header>
+            <?php
+            if (isset($_SESSION['h204a4message']) and $_SESSION['h204a4message'] != "") {
+                echo '<span style="color : red;">' . $_SESSION['h204a4message'] . '</span><br/>';
+                $_SESSION['h204a4message'] = ""; // Le message n'est affiché qu'une seule fois
+            }
+            ?>
             <div id="contenu">
                 <?= $contenu ?>   <!-- Élément spécifique -->
             </div> <!-- #contenu -->
